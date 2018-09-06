@@ -49,7 +49,7 @@ public class Main {
 			columnNamesList.append("eyecolor,");
 		}
 		if (person.getHobby() != null) {
-			columnNamesList.append("hobby,");
+			columnNamesList.append("hobby");
 		}
 		return columnNamesList.append("\n").toString();
 	}
@@ -66,7 +66,7 @@ public class Main {
 			row.append(person.getEyecolor()).append(",");
 		}
 		if (person.getHobby() != null) {
-			row.append(person.getHobby()).append(",");
+			row.append(person.getHobby());
 		}
 		return row.append("\n").toString();
 	}

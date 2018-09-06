@@ -1,4 +1,4 @@
-age,eyecolor,hobby,
-31,green,football,
-25,blue,basketball,
-28,black,surfing,
+name,age,eyecolor,hobby
+John,31,green,football
+Thomas,25,blue,basketball
+Susan,28,black,surfing
